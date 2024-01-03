@@ -2,10 +2,11 @@ body {
     font-family: 'Calibri', sans-serif;
     background-color: black;
     color: white;
+    margin: 0;
 }
 
 .container {
-    margin-top: 1cm;
+    margin-top: 30px;
 }
 
 .icon img {
@@ -15,21 +16,6 @@ body {
 
 .information {
     text-align: left;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 1.2em;
-    margin-bottom: 20px;
 }
 
 .styled-link {
@@ -49,6 +35,8 @@ h3 {
 
 .detail {
     min-height: 200px; /* Minimum height of 300px */
+    margin-top: 20px; /* Adjusted margin-top */
+
 }
 
 .address .paragraph,
@@ -66,10 +54,10 @@ h3 {
 }
 
 .social-media img {
-    max-width: 30px; /* Maximum width of 48px */
-    max-height: 30px; /* Maximum height of 48px */
+    max-width: 30px;
+    max-height: 30px;
     }
-@media (max-width: 100px) {
+@media (max-width: 767px) {
     .row {
         flex-direction: column-reverse;
     }
