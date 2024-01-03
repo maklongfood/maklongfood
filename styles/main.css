@@ -58,12 +58,10 @@ body {
     max-height: 30px;
     }
 @media (max-width: 767px) {
-    .row {
-        flex-direction: column-reverse;
-    }
 
     .information,
-    .icon {
-        text-align: left;
+    .icon,
+    .social-media {
+        text-align: center;
     }
 }
