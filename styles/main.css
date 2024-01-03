@@ -57,7 +57,7 @@ body {
     max-width: 30px;
     max-height: 30px;
     }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 
     .information,
     .icon,
