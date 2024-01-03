@@ -1,0 +1,66 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin-top: 1cm;
+}
+
+.icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.information {
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.detail {
+    min-height: 200px; /* Minimum height of 300px */
+}
+
+.address .paragraph,
+.contact .paragraph {
+    min-height: 300px; /* Minimum height of 300px for the nested paragraph divs */
+}
+
+.address,
+.contact {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media img {
+    max-width: 30px; /* Maximum width of 48px */
+    max-height: 30px; /* Maximum height of 48px */
+    }
+@media (max-width: 100px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .information,
+    .icon {
+        text-align: center;
+    }
+}
