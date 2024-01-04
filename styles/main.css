@@ -14,10 +14,10 @@ body {
 }
 
 .container {
-  position: relative;
-  z-index: 1;
-  background: inherit;
-  padding: 20px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    padding: 50px;
     border-radius: 10px;
     color: white;
     text-align: center;
@@ -88,7 +88,6 @@ body {
 
 .social-media {
     text-align: right;
-    margin-bottom: 30px;
 }
 
 .social-media img {
