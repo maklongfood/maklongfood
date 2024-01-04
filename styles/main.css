@@ -18,6 +18,7 @@ body {
     z-index: 1;
     background: inherit;
     padding: 50px;
+    margin: 50px;
     border-radius: 10px;
     color: white;
     text-align: center;
