@@ -13,6 +13,10 @@ body {
     /* overflow: hidden; */
 }
 
+  .neon-glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff00e1, 0 0 30px #ff00e1;
+  }
+
 .container {
     position: relative;
     z-index: 1;
